@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>calculadora II</title>
+</head>
+
+<body>
+    <h1>Calculadora II</h1>
+    <h6>by Carlos Crispin</h6>
+    <fieldset><br>
+        <legend id="reglas">Ingrese dos números y eliga una opción</legend>
+        <br>
+        <form action="">
+            <label for="numero">Número 1</label>
+            <input type="number" name="num1" id="txtN1">
+            <br><br>
+            <label for="numero2">Número 2</label>
+            <input type="number" name="num2" id="txtN2">
+            <br><br>
+            <button class="carlos" type="button" onclick="Suma()">Suma</button>
+            <button class="carlos" type="button" onclick="Resta()">Resta</button>
+            <button class="carlos" type="button" onclick="Multi()">Multiplicación</button>
+            <button class="carlos" type="button" onclick="Divi()">División</button>
+            <button class="carlos" type="reset">Borrar</button>
+        </form>
+
+    </fieldset>
+    <h1 id="resultado"></h1>
+</body>
+
+</html>
+<script src="js/index.js"></script>
